@@ -21,6 +21,7 @@
 #include "Poco/Net/ServerSocket.h"
 #include "Poco/Environment.h"
 #include "Poco/Util/HelpFormatter.h"
+#include <iostream>
 ThumbnailServer::ThumbnailServer():
     _help(false){
     setUnixOptions(true);
